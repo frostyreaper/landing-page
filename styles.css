@@ -32,8 +32,8 @@
 
 .head2 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin: 100px;
     padding-left: 150px;
 }
@@ -41,9 +41,28 @@
 .title {
     font-size: 48px;
     font-weight: 900;
+    width: 400px;
 }
 
 .titletext {
-    
+    width: 400px;
 
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.headpic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    width: 750px;
+    height: 200px;
 }
