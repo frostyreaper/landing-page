@@ -35,7 +35,7 @@
     justify-content: space-between;
     margin: 100px;
     padding-left: 150px;
-    border: 2px solid #3882f6;
+
 }
 
 .title {
@@ -55,6 +55,7 @@ button {
     color: #e5e7eb;
     border-radius: 10px;
     font-weight: bold;
+    
 }
 
 .headpic {
@@ -72,7 +73,6 @@ button {
     justify-content: center;
     flex-direction: column;
     height: 500;
-    border: 2px solid #3882f6;
     padding-bottom: 75px;
 }
 
@@ -132,4 +132,46 @@ button {
     width: 750px;
     
     
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.secbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    gap: 100px;
+}
+
+.cta1 {
+    color: #e5e7eb;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.cta2 {
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.footert {
+    color: #e5e7eb;
 }
